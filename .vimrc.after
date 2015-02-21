@@ -1,0 +1,28 @@
+
+map <F2> :NERDTreeToggle<cr>
+
+let NERDTreeShowHidden=1
+
+map <F3> :let @/ = ""<cr>
+
+nnoremap <F8> :set invpaste paste?<CR>
+set pastetoggle=<F8>
+set showmode
+
+"map <mapleader>ft :set filetype=
+
+set ts=4
+
+set mouse=a
+set mouse=""
+
+"map <Leader>e :'<,'>w !sh<CR>
+map <Leader>e :w !sh<CR>
+" Current line
+".w !bash
+"
+
+nnoremap x "_x
+
+set clipboard=unnamed
+
